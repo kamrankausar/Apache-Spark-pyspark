@@ -1,2 +1,3 @@
 # Apache-Spark-pyspark
-Apache Spark Foundation to Advance on real world Use cases
+This repo is  for Apache Spark with Python course
+Apache Spark Foundation to Advance on Real World Use Cases

@@ -1,14 +1,14 @@
-pwd= /home/ubuntu/Application/spark-1
+$pwd= /home/ubuntu/Application/spark-1
 
-chmod 400 spark.pem
-cp ~/Downloads/spark.pem .
+$chmod 400 spark.pem
+$cp ~/Downloads/spark.pem .
 Access key ID- ABCDEFGHIJKLM
 Secret access key- KCgMSTV3oRFjDRUya34JG034ZAt+8+tA/RrTs9pvVL
 
-export AWS_ACCESS_KEY_ID=ABCDEFGHIJKLM
-export AWS_SECRET_ACCESS_KEY=KCgMSTV3oRFjDRUya34JG034ZAt+8+tA/RrTs9pvVL
+$export AWS_ACCESS_KEY_ID=ABCDEFGHIJKLM
+$export AWS_SECRET_ACCESS_KEY=KCgMSTV3oRFjDRUya34JG034ZAt+8+tA/RrTs9pvVL
 
-ec2/spark-ec2 --key-pair=spark --identity-file=spark.pem --zone=us-east-1b launch spark-cluster-example
+$ec2/spark-ec2 --key-pair=spark --identity-file=spark.pem --zone=us-east-1b launch spark-cluster-example
 
 Some Output:-
 Launching instances...
